@@ -1,26 +1,33 @@
-# 🏋️ Fitness Program Plan — Flutter UI
+# 🏋️ Finalix — Fitness App Flutter
 
-Reproduction d'une maquette Dribbble en Flutter.
+Reproduction fidèle d'une maquette Dribbble en Flutter.
 
-## 🔗 Maquette originale
+## 🔗 Maquette originale Dribbble
 
-👉 [Fitness App — Dribbble](https://dribbble.com/shots/26913868-Fintess-app)
+👉 [Fitness App — dribbble.com/shots/26913868](https://dribbble.com/shots/26913868-Fintess-app)
+
+## 📸 Aperçu
+
+### Maquette originale
+![Maquette originale](screenshots/maquette_originale.png)
+
+### Réalisation Flutter
+| Écran 1 | Écran 2 | Écran 3 |
+|---|---|---|
+| ![Screen 1](screenshots/screen1.png) | ![Screen 2](screenshots/screen2.png) | ![Screen 3](screenshots/screen3.png) |
 
 ## 📱 Description
 
-Application mobile Flutter reproduisant une interface fitness moderne composée de 3 écrans :
+**Finalix** est une application mobile Flutter reproduisant une interface fitness moderne composée de 3 écrans :
 
-| Écran | Description |
-|---|---|
-| **Program Plan** | Vue d'ensemble du programme : stats personnelles, progress bar 24% |
-| **Pick a Challenge** | Sélection du défi : carte workout, compteur utilisateurs |
-| **Plan for Success** | Objectif de poids, graphique barres, calendrier 30-day Shred |
+- **Program Plan** — Vue d'ensemble du programme fitness : stats personnelles, barre de progression 24%
+- **Pick a Challenge** — Sélection du défi workout avec compteur d'utilisateurs
+- **Plan for Success** — Objectif de poids, graphique de progression, calendrier 30-day Shred
 
 ## 🎨 Design
 
-- **Palette** : Blanc `#FFFFFF`, Noir `#000000`, Vert `#7DC67E`, Gris `#F5F5F5`
-- **Typographie** : SF Pro Display (poids light + bold)
-- **Style** : Minimaliste, cards avec ombres légères, boutons rounded
+- **Palette** : Blanc `#FFFFFF`, Noir `#000000`, Vert `#7DC67E`
+- **Style** : Minimaliste, cards avec ombres légères, boutons arrondis
 
 ## 🚀 Lancer le projet
 
@@ -35,25 +42,26 @@ flutter run
 lib/
 ├── main.dart
 └── screens/
-    ├── program_plan_screen.dart   # Écran 1
-    ├── pick_challenge_screen.dart # Écran 2
-    └── plan_success_screen.dart   # Écran 3
+    ├── program_plan_screen.dart
+    ├── pick_challenge_screen.dart
+    └── plan_success_screen.dart
+assets/
+└── images/
+    └── hero_man.png
+screenshots/
+├── maquette_originale.png
+├── screen1.png
+├── screen2.png
+└── screen3.png
 ```
 
 ## ⚠️ Difficultés rencontrées
 
-- Reproduction fidèle du graphique en barres sans librairie externe
+- Reproduction du graphique en barres sans librairie externe
 - Gestion du calendrier interactif avec état sélectionné
-- Équilibre entre l'image hero et le titre sur l'écran 1
-- Responsive sur différentes tailles d'écran Android/iOS
+- Positionnement de la photo hero dans le header
+- Chargement des images réseau avec fallback local
 
-## 📊 Critères d'évaluation
+## 👨‍💻 Auteur
 
-| Critère | Points |
-|---|---|
-| Respect de la maquette | /8 |
-| Qualité du code | /4 |
-| Structure du projet | /3 |
-| Responsive Design | /3 |
-| Documentation (README) | /2 |
-| **Total** | **/20** |
+**Stanislas** — Institut International de Technologie (IIT) — Grand-Bassam
