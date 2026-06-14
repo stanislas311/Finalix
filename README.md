@@ -64,4 +64,4 @@ screenshots/
 
 ## 👨‍💻 Auteur
 
-**Stanislas** — Institut International de Technologie (IIT) — Grand-Bassam
+**Adou Koua Stanislas** — Institut Ivoirien de Technologie (IIT) — Grand-Bassam
